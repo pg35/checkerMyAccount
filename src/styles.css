@@ -1,0 +1,136 @@
+.pxq_pgck_error {
+  color: red;
+}
+.pxq_pgck_success {
+  color: darkgreen;
+}
+.pxq_pgck label {
+  display: inline-block;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+.pxq_pgck_container__body {
+  min-height: 300px;
+  border1: 1px solid red;
+}
+.pxq_pgck_container__footer {
+  text-align: center;
+}
+
+.pxq_pgck_types {
+  margin-bottom: 10px;
+}
+.pxq_pgck_types label {
+  margin: 0 20px 10px 0;
+}
+
+.pxq_pgck_input__header {
+  margin-bottom: 10px;
+}
+.pxq_pgck_input label {
+  font-weight: bold;
+}
+.pxq_pgck_input input {
+  margin-bottom: 10px;
+}
+
+.pxq_pgck_input_url input,
+.pxq_pgck_input_text textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.pxq_pgck_input_text textarea {
+  height: 220px;
+  resize: vertical;
+}
+
+.pxq_pgck_progress {
+  line-height: 2em;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+tr > td {
+  border: 1px solid;
+  padding: 5px;
+}
+tr.pxq_pgck_open > td {
+  border-bottom: none;
+}
+tr.pxq_pgck_open + tr > td {
+  border-top: none;
+}
+.pxq_pgck_actions > a {
+  margin: 5px;
+}
+/* Popup style */
+.popup-box {
+  position: fixed;
+  background: #00000050;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+.box {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  max-height: 70vh;
+  margin-top: calc(100vh - 85vh - 20px);
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px;
+  border: 1px solid #999;
+  overflow: auto;
+  text-align: center;
+}
+
+.close-icon {
+  content: "x";
+  cursor: pointer;
+  position: fixed;
+  right: calc(15% - 30px);
+  top: calc(100vh - 85vh - 33px);
+  background: #ededed;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  border: 1px solid #999;
+  font-size: 20px;
+}
+
+.App table {
+  border: none !important;
+  display: inline-table !important;
+  width: auto !important;
+}
+.App .pxq_pgck_list_table {
+  width: 100% !important;
+  border-collapse: collapse;
+}
+.App .pxq_pgck_list_table > td {
+  border: 1px solid;
+  padding: 5px;
+}
+.App tr.pxq_pgck_open > td {
+  border-bottom: none;
+}
+.App tr.pxq_pgck_open + tr > td {
+  border-top: none;
+}
+.pxq_pgck_actions > a {
+  margin: 5px;
+}
